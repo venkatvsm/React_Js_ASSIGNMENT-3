@@ -1,0 +1,28 @@
+.tablistItems {
+  border: none;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tablistbtn {
+  font-family: 'roboto';
+  color: #ffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 21px;
+}
+.activeBorder {
+  border-bottom-style: solid;
+  border-color: #fec653;
+}
+.activecolor {
+  color: #fec653;
+}
+@media screen and (min-width: 768px) {
+  .tablistbtn {
+    font-size: 21px;
+  }
+}
